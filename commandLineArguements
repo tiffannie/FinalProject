@@ -1,0 +1,7 @@
+use the different argument choices in pyAudiosAnalysis
+
+audioAnalysis.py: error: argument : invalid choice: 'musicThumbnailing' (choose from 'dirMp3toWav', 'dirWavResample', 'featureExtractionFile', 'beatExtraction', 'featureExtractionDir', 'featureVisualization', 'fileSpectrogram', 'fileChromagram', 'trainClassifier', 'trainRegression', 'classifyFile', 'trainHMMsegmenter_fromfile', 'trainHMMsegmenter_fromdir', 'segmentClassifyFile', 'segmentClassifyFileHMM', 'segmentationEvaluation', 'regressionFile', 'classifyFolder', 'regressionFolder', 'silenceRemoval', 'speakerDiarization', 'speakerDiarizationScriptEval', 'thumbnail')
+
+for example, type in command line:
+
+python audioAnalysis.py thumbnail -i <music file> -s <size in seconds of thumbnail>
