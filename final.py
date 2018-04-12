@@ -131,8 +131,6 @@ parameters: two floats. (min and max pitch)
 returns: float representing the number of semitones between the min and max pitch
 '''
 def getTotalSemitones(minny, maxxy):
-    #maxxy = float("{0:.3f}".format(maxxy))
-    #minny = float("{0:.3f}".format(minny))
     logz = math.log((maxxy/minny), 2)
     n = 12 * logz   
     return float("{0:.3f}".format(n))
